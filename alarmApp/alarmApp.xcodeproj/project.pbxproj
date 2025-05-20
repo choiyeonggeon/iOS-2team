@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42CF0C6A2DDC18DE00F2402D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0C692DDC18DE00F2402D /* SnapKit */; };
-		42CF0C6D2DDC18FF00F2402D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0C6C2DDC18FF00F2402D /* RxCocoa */; };
-		42CF0C6F2DDC18FF00F2402D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0C6E2DDC18FF00F2402D /* RxRelay */; };
-		42CF0C712DDC18FF00F2402D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0C702DDC18FF00F2402D /* RxSwift */; };
+		42CF0D542DDC2F4B00F2402D /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0D532DDC2F4B00F2402D /* Entity+CoreDataProperties.swift */; };
+		42CF0D552DDC2F4B00F2402D /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0D522DDC2F4B00F2402D /* Entity+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42CF0C492DDC17DC00F2402D /* PBXContainerItemProxy */ = {
+		42CF0D352DDC2E5300F2402D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 42CF0C2A2DDC17DB00F2402D /* Project object */;
+			containerPortal = 42CF0D132DDC2E5100F2402D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42CF0C312DDC17DB00F2402D;
-			remoteInfo = alarmApp;
+			remoteGlobalIDString = 42CF0D1A2DDC2E5100F2402D;
+			remoteInfo = "alarm alarmApp";
 		};
-		42CF0C532DDC17DC00F2402D /* PBXContainerItemProxy */ = {
+		42CF0D3F2DDC2E5300F2402D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 42CF0C2A2DDC17DB00F2402D /* Project object */;
+			containerPortal = 42CF0D132DDC2E5100F2402D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42CF0C312DDC17DB00F2402D;
-			remoteInfo = alarmApp;
+			remoteGlobalIDString = 42CF0D1A2DDC2E5100F2402D;
+			remoteInfo = "alarm alarmApp";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42CF0C322DDC17DB00F2402D /* alarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42CF0C482DDC17DC00F2402D /* alarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42CF0C522DDC17DC00F2402D /* alarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF0D1B2DDC2E5100F2402D /* alarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF0D342DDC2E5300F2402D /* alarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF0D3E2DDC2E5300F2402D /* alarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF0D522DDC2F4B00F2402D /* Entity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		42CF0D532DDC2F4B00F2402D /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		42CF0C5A2DDC17DC00F2402D /* Exceptions for "alarmApp" folder in "alarmApp" target */ = {
+		42CF0D462DDC2E5300F2402D /* Exceptions for "alarmApp" folder in "alarmApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 42CF0C312DDC17DB00F2402D /* alarmApp */;
+			target = 42CF0D1A2DDC2E5100F2402D /* alarmApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		42CF0C342DDC17DB00F2402D /* alarmApp */ = {
+		42CF0D1D2DDC2E5100F2402D /* alarmApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				42CF0C5A2DDC17DC00F2402D /* Exceptions for "alarmApp" folder in "alarmApp" target */,
+				42CF0D462DDC2E5300F2402D /* Exceptions for "alarmApp" folder in "alarmApp" target */,
 			);
 			path = alarmApp;
 			sourceTree = "<group>";
 		};
-		42CF0C722DDC194500F2402D /* ViewModel */ = {
+		42CF0D562DDC2F8F00F2402D /* ViewModel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		42CF0C732DDC197400F2402D /* ViewController */ = {
+		42CF0D572DDC2FA500F2402D /* ViewController */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		42CF0C742DDC198900F2402D /* Model */ = {
+		42CF0D582DDC2FAA00F2402D /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Model;
 			sourceTree = "<group>";
@@ -73,25 +73,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42CF0C2F2DDC17DB00F2402D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42CF0C6F2DDC18FF00F2402D /* RxRelay in Frameworks */,
-				42CF0C6D2DDC18FF00F2402D /* RxCocoa in Frameworks */,
-				42CF0C712DDC18FF00F2402D /* RxSwift in Frameworks */,
-				42CF0C6A2DDC18DE00F2402D /* SnapKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42CF0C452DDC17DC00F2402D /* Frameworks */ = {
+		42CF0D182DDC2E5100F2402D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42CF0C4F2DDC17DC00F2402D /* Frameworks */ = {
+		42CF0D312DDC2E5300F2402D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF0D3B2DDC2E5300F2402D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,23 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42CF0C292DDC17DB00F2402D = {
+		42CF0D122DDC2E5100F2402D = {
 			isa = PBXGroup;
 			children = (
-				42CF0C742DDC198900F2402D /* Model */,
-				42CF0C732DDC197400F2402D /* ViewController */,
-				42CF0C722DDC194500F2402D /* ViewModel */,
-				42CF0C342DDC17DB00F2402D /* alarmApp */,
-				42CF0C332DDC17DB00F2402D /* Products */,
+				42CF0D582DDC2FAA00F2402D /* Model */,
+				42CF0D572DDC2FA500F2402D /* ViewController */,
+				42CF0D562DDC2F8F00F2402D /* ViewModel */,
+				42CF0D522DDC2F4B00F2402D /* Entity+CoreDataClass.swift */,
+				42CF0D532DDC2F4B00F2402D /* Entity+CoreDataProperties.swift */,
+				42CF0D1D2DDC2E5100F2402D /* alarmApp */,
+				42CF0D1C2DDC2E5100F2402D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		42CF0C332DDC17DB00F2402D /* Products */ = {
+		42CF0D1C2DDC2E5100F2402D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42CF0C322DDC17DB00F2402D /* alarmApp.app */,
-				42CF0C482DDC17DC00F2402D /* alarmAppTests.xctest */,
-				42CF0C522DDC17DC00F2402D /* alarmAppUITests.xctest */,
+				42CF0D1B2DDC2E5100F2402D /* alarmApp.app */,
+				42CF0D342DDC2E5300F2402D /* alarmAppTests.xctest */,
+				42CF0D3E2DDC2E5300F2402D /* alarmAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,139 +123,131 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42CF0C312DDC17DB00F2402D /* alarmApp */ = {
+		42CF0D1A2DDC2E5100F2402D /* alarmApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42CF0C5B2DDC17DC00F2402D /* Build configuration list for PBXNativeTarget "alarmApp" */;
+			buildConfigurationList = 42CF0D472DDC2E5300F2402D /* Build configuration list for PBXNativeTarget "alarmApp" */;
 			buildPhases = (
-				42CF0C2E2DDC17DB00F2402D /* Sources */,
-				42CF0C2F2DDC17DB00F2402D /* Frameworks */,
-				42CF0C302DDC17DB00F2402D /* Resources */,
+				42CF0D172DDC2E5100F2402D /* Sources */,
+				42CF0D182DDC2E5100F2402D /* Frameworks */,
+				42CF0D192DDC2E5100F2402D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				42CF0C342DDC17DB00F2402D /* alarmApp */,
-				42CF0C722DDC194500F2402D /* ViewModel */,
-				42CF0C732DDC197400F2402D /* ViewController */,
-				42CF0C742DDC198900F2402D /* Model */,
+				42CF0D1D2DDC2E5100F2402D /* alarmApp */,
+				42CF0D562DDC2F8F00F2402D /* ViewModel */,
+				42CF0D572DDC2FA500F2402D /* ViewController */,
+				42CF0D582DDC2FAA00F2402D /* Model */,
 			);
 			name = alarmApp;
 			packageProductDependencies = (
-				42CF0C692DDC18DE00F2402D /* SnapKit */,
-				42CF0C6C2DDC18FF00F2402D /* RxCocoa */,
-				42CF0C6E2DDC18FF00F2402D /* RxRelay */,
-				42CF0C702DDC18FF00F2402D /* RxSwift */,
 			);
-			productName = alarmApp;
-			productReference = 42CF0C322DDC17DB00F2402D /* alarmApp.app */;
+			productName = "alarm alarmApp";
+			productReference = 42CF0D1B2DDC2E5100F2402D /* alarmApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42CF0C472DDC17DC00F2402D /* alarmAppTests */ = {
+		42CF0D332DDC2E5300F2402D /* alarmAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42CF0C602DDC17DC00F2402D /* Build configuration list for PBXNativeTarget "alarmAppTests" */;
+			buildConfigurationList = 42CF0D4C2DDC2E5300F2402D /* Build configuration list for PBXNativeTarget "alarmAppTests" */;
 			buildPhases = (
-				42CF0C442DDC17DC00F2402D /* Sources */,
-				42CF0C452DDC17DC00F2402D /* Frameworks */,
-				42CF0C462DDC17DC00F2402D /* Resources */,
+				42CF0D302DDC2E5300F2402D /* Sources */,
+				42CF0D312DDC2E5300F2402D /* Frameworks */,
+				42CF0D322DDC2E5300F2402D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42CF0C4A2DDC17DC00F2402D /* PBXTargetDependency */,
+				42CF0D362DDC2E5300F2402D /* PBXTargetDependency */,
 			);
 			name = alarmAppTests;
 			packageProductDependencies = (
 			);
-			productName = alarmAppTests;
-			productReference = 42CF0C482DDC17DC00F2402D /* alarmAppTests.xctest */;
+			productName = "alarm alarmAppTests";
+			productReference = 42CF0D342DDC2E5300F2402D /* alarmAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		42CF0C512DDC17DC00F2402D /* alarmAppUITests */ = {
+		42CF0D3D2DDC2E5300F2402D /* alarmAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42CF0C632DDC17DC00F2402D /* Build configuration list for PBXNativeTarget "alarmAppUITests" */;
+			buildConfigurationList = 42CF0D4F2DDC2E5300F2402D /* Build configuration list for PBXNativeTarget "alarmAppUITests" */;
 			buildPhases = (
-				42CF0C4E2DDC17DC00F2402D /* Sources */,
-				42CF0C4F2DDC17DC00F2402D /* Frameworks */,
-				42CF0C502DDC17DC00F2402D /* Resources */,
+				42CF0D3A2DDC2E5300F2402D /* Sources */,
+				42CF0D3B2DDC2E5300F2402D /* Frameworks */,
+				42CF0D3C2DDC2E5300F2402D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42CF0C542DDC17DC00F2402D /* PBXTargetDependency */,
+				42CF0D402DDC2E5300F2402D /* PBXTargetDependency */,
 			);
 			name = alarmAppUITests;
 			packageProductDependencies = (
 			);
-			productName = alarmAppUITests;
-			productReference = 42CF0C522DDC17DC00F2402D /* alarmAppUITests.xctest */;
+			productName = "alarm alarmAppUITests";
+			productReference = 42CF0D3E2DDC2E5300F2402D /* alarmAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42CF0C2A2DDC17DB00F2402D /* Project object */ = {
+		42CF0D132DDC2E5100F2402D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					42CF0C312DDC17DB00F2402D = {
+					42CF0D1A2DDC2E5100F2402D = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					42CF0C472DDC17DC00F2402D = {
+					42CF0D332DDC2E5300F2402D = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 42CF0C312DDC17DB00F2402D;
+						TestTargetID = 42CF0D1A2DDC2E5100F2402D;
 					};
-					42CF0C512DDC17DC00F2402D = {
+					42CF0D3D2DDC2E5300F2402D = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 42CF0C312DDC17DB00F2402D;
+						TestTargetID = 42CF0D1A2DDC2E5100F2402D;
 					};
 				};
 			};
-			buildConfigurationList = 42CF0C2D2DDC17DB00F2402D /* Build configuration list for PBXProject "alarmApp" */;
+			buildConfigurationList = 42CF0D162DDC2E5100F2402D /* Build configuration list for PBXProject "alarmApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 42CF0C292DDC17DB00F2402D;
+			mainGroup = 42CF0D122DDC2E5100F2402D;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				42CF0C682DDC18DE00F2402D /* XCRemoteSwiftPackageReference "SnapKit" */,
-				42CF0C6B2DDC18FF00F2402D /* XCRemoteSwiftPackageReference "RxSwift" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 42CF0C332DDC17DB00F2402D /* Products */;
+			productRefGroup = 42CF0D1C2DDC2E5100F2402D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42CF0C312DDC17DB00F2402D /* alarmApp */,
-				42CF0C472DDC17DC00F2402D /* alarmAppTests */,
-				42CF0C512DDC17DC00F2402D /* alarmAppUITests */,
+				42CF0D1A2DDC2E5100F2402D /* alarmApp */,
+				42CF0D332DDC2E5300F2402D /* alarmAppTests */,
+				42CF0D3D2DDC2E5300F2402D /* alarmAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42CF0C302DDC17DB00F2402D /* Resources */ = {
+		42CF0D192DDC2E5100F2402D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42CF0C462DDC17DC00F2402D /* Resources */ = {
+		42CF0D322DDC2E5300F2402D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42CF0C502DDC17DC00F2402D /* Resources */ = {
+		42CF0D3C2DDC2E5300F2402D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,21 +257,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42CF0C2E2DDC17DB00F2402D /* Sources */ = {
+		42CF0D172DDC2E5100F2402D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF0D542DDC2F4B00F2402D /* Entity+CoreDataProperties.swift in Sources */,
+				42CF0D552DDC2F4B00F2402D /* Entity+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CF0D302DDC2E5300F2402D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42CF0C442DDC17DC00F2402D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42CF0C4E2DDC17DC00F2402D /* Sources */ = {
+		42CF0D3A2DDC2E5300F2402D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,20 +283,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42CF0C4A2DDC17DC00F2402D /* PBXTargetDependency */ = {
+		42CF0D362DDC2E5300F2402D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42CF0C312DDC17DB00F2402D /* alarmApp */;
-			targetProxy = 42CF0C492DDC17DC00F2402D /* PBXContainerItemProxy */;
+			target = 42CF0D1A2DDC2E5100F2402D /* alarmApp */;
+			targetProxy = 42CF0D352DDC2E5300F2402D /* PBXContainerItemProxy */;
 		};
-		42CF0C542DDC17DC00F2402D /* PBXTargetDependency */ = {
+		42CF0D402DDC2E5300F2402D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42CF0C312DDC17DB00F2402D /* alarmApp */;
-			targetProxy = 42CF0C532DDC17DC00F2402D /* PBXContainerItemProxy */;
+			target = 42CF0D1A2DDC2E5100F2402D /* alarmApp */;
+			targetProxy = 42CF0D3F2DDC2E5300F2402D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		42CF0C5C2DDC17DC00F2402D /* Debug */ = {
+		42CF0D482DDC2E5300F2402D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -312,19 +304,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = alarmApp/Info.plist;
+				INFOPLIST_FILE = "alarm alarmApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyg050217.112349.alarmApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyg050217.112349.alarm-alarmApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,7 +323,7 @@
 			};
 			name = Debug;
 		};
-		42CF0C5D2DDC17DC00F2402D /* Release */ = {
+		42CF0D492DDC2E5300F2402D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -340,19 +331,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = alarmApp/Info.plist;
+				INFOPLIST_FILE = "alarm alarmApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyg050217.112349.alarmApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyg050217.112349.alarm-alarmApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,7 +350,7 @@
 			};
 			name = Release;
 		};
-		42CF0C5E2DDC17DC00F2402D /* Debug */ = {
+		42CF0D4A2DDC2E5300F2402D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		42CF0C5F2DDC17DC00F2402D /* Release */ = {
+		42CF0D4B2DDC2E5300F2402D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -479,7 +469,7 @@
 			};
 			name = Release;
 		};
-		42CF0C612DDC17DC00F2402D /* Debug */ = {
+		42CF0D4D2DDC2E5300F2402D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,7 +478,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyg050217.112349.alarmAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyg050217.112349.alarm-alarmAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -497,7 +487,7 @@
 			};
 			name = Debug;
 		};
-		42CF0C622DDC17DC00F2402D /* Release */ = {
+		42CF0D4E2DDC2E5300F2402D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,7 +496,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyg050217.112349.alarmAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyg050217.112349.alarm-alarmAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -515,120 +505,78 @@
 			};
 			name = Release;
 		};
-		42CF0C642DDC17DC00F2402D /* Debug */ = {
+		42CF0D502DDC2E5300F2402D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyg050217.112349.alarmAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyg050217.112349.alarm-alarmAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = alarmApp;
+				TEST_TARGET_NAME = "alarm alarmApp";
 			};
 			name = Debug;
 		};
-		42CF0C652DDC17DC00F2402D /* Release */ = {
+		42CF0D512DDC2E5300F2402D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyg050217.112349.alarmAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyg050217.112349.alarm-alarmAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = alarmApp;
+				TEST_TARGET_NAME = "alarm alarmApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42CF0C2D2DDC17DB00F2402D /* Build configuration list for PBXProject "alarmApp" */ = {
+		42CF0D162DDC2E5100F2402D /* Build configuration list for PBXProject "alarmApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42CF0C5E2DDC17DC00F2402D /* Debug */,
-				42CF0C5F2DDC17DC00F2402D /* Release */,
+				42CF0D4A2DDC2E5300F2402D /* Debug */,
+				42CF0D4B2DDC2E5300F2402D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42CF0C5B2DDC17DC00F2402D /* Build configuration list for PBXNativeTarget "alarmApp" */ = {
+		42CF0D472DDC2E5300F2402D /* Build configuration list for PBXNativeTarget "alarmApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42CF0C5C2DDC17DC00F2402D /* Debug */,
-				42CF0C5D2DDC17DC00F2402D /* Release */,
+				42CF0D482DDC2E5300F2402D /* Debug */,
+				42CF0D492DDC2E5300F2402D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42CF0C602DDC17DC00F2402D /* Build configuration list for PBXNativeTarget "alarmAppTests" */ = {
+		42CF0D4C2DDC2E5300F2402D /* Build configuration list for PBXNativeTarget "alarmAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42CF0C612DDC17DC00F2402D /* Debug */,
-				42CF0C622DDC17DC00F2402D /* Release */,
+				42CF0D4D2DDC2E5300F2402D /* Debug */,
+				42CF0D4E2DDC2E5300F2402D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42CF0C632DDC17DC00F2402D /* Build configuration list for PBXNativeTarget "alarmAppUITests" */ = {
+		42CF0D4F2DDC2E5300F2402D /* Build configuration list for PBXNativeTarget "alarmAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42CF0C642DDC17DC00F2402D /* Debug */,
-				42CF0C652DDC17DC00F2402D /* Release */,
+				42CF0D502DDC2E5300F2402D /* Debug */,
+				42CF0D512DDC2E5300F2402D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		42CF0C682DDC18DE00F2402D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-		42CF0C6B2DDC18FF00F2402D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.9.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		42CF0C692DDC18DE00F2402D /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 42CF0C682DDC18DE00F2402D /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		42CF0C6C2DDC18FF00F2402D /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 42CF0C6B2DDC18FF00F2402D /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		42CF0C6E2DDC18FF00F2402D /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 42CF0C6B2DDC18FF00F2402D /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		42CF0C702DDC18FF00F2402D /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 42CF0C6B2DDC18FF00F2402D /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 42CF0C2A2DDC17DB00F2402D /* Project object */;
+	rootObject = 42CF0D132DDC2E5100F2402D /* Project object */;
 }
