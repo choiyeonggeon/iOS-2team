@@ -16,11 +16,10 @@ extension StopwatchRecord {
         return NSFetchRequest<StopwatchRecord>(entityName: "StopwatchRecord")
     }
 
-    @NSManaged public var id: UUID?
-    @NSManaged public var startTime: Date?
-    @NSManaged public var endTime: Date?
-    @NSManaged public var totalTime: Double
-    @NSManaged public var lapTimes: NSObject?
+    @NSManaged public var stopwatchStartTime: NSObject?
+    @NSManaged public var stopwatchEndTime: NSObject?
+    @NSManaged public var stopwatchTotalTime: NSObject?
+    @NSManaged public var stopwatchLapTime: NSObject?
 
 }
 
