@@ -11,7 +11,6 @@
 		42CF0DD22DDC571400F2402D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0DD12DDC571400F2402D /* RxRelay */; };
 		42CF0DD42DDC571400F2402D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0DD32DDC571400F2402D /* RxSwift */; };
 		42CF0DD72DDC572500F2402D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0DD62DDC572500F2402D /* SnapKit */; };
-		42CF0EA12DDCA56200F2402D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 42CF0EA02DDCA56200F2402D /* .gitignore */; };
 		42CF0EA82DDCAF2400F2402D /* StopwatchRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EA52DDCAF2400F2402D /* StopwatchRecord+CoreDataProperties.swift */; };
 		42CF0EAA2DDCAF2400F2402D /* Alarm+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EA32DDCAF2400F2402D /* Alarm+CoreDataProperties.swift */; };
 		42CF0EAC2DDCAF2400F2402D /* Alarm+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EA22DDCAF2400F2402D /* Alarm+CoreDataClass.swift */; };
@@ -41,7 +40,6 @@
 		42CF0D8E2DDC55FE00F2402D /* alarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF0DA72DDC55FF00F2402D /* alarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF0DB12DDC55FF00F2402D /* alarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42CF0EA02DDCA56200F2402D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		42CF0EA22DDCAF2400F2402D /* Alarm+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm+CoreDataClass.swift"; sourceTree = "<group>"; };
 		42CF0EA32DDCAF2400F2402D /* Alarm+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		42CF0EA42DDCAF2400F2402D /* StopwatchRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StopwatchRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				42CF0EA32DDCAF2400F2402D /* Alarm+CoreDataProperties.swift */,
 				42CF0EA42DDCAF2400F2402D /* StopwatchRecord+CoreDataClass.swift */,
 				42CF0EA52DDCAF2400F2402D /* StopwatchRecord+CoreDataProperties.swift */,
-				42CF0EA02DDCA56200F2402D /* .gitignore */,
 				42CF0E562DDC59DE00F2402D /* Protocol */,
 				42CF0DC72DDC563F00F2402D /* ViewController */,
 				42CF0DC62DDC563600F2402D /* Model */,
@@ -275,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CF0EA12DDCA56200F2402D /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
