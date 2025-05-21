@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BF205222DDDA61C00B154AB /* Timer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF205202DDDA61C00B154AB /* Timer+CoreDataClass.swift */; };
+		3BF205232DDDA61C00B154AB /* Timer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF205212DDDA61C00B154AB /* Timer+CoreDataProperties.swift */; };
 		42CF0DD02DDC571400F2402D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0DCF2DDC571400F2402D /* RxCocoa */; };
 		42CF0DD22DDC571400F2402D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0DD12DDC571400F2402D /* RxRelay */; };
 		42CF0DD42DDC571400F2402D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 42CF0DD32DDC571400F2402D /* RxSwift */; };
@@ -15,8 +17,6 @@
 		42CF0EAA2DDCAF2400F2402D /* Alarm+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EA32DDCAF2400F2402D /* Alarm+CoreDataProperties.swift */; };
 		42CF0EAC2DDCAF2400F2402D /* Alarm+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EA22DDCAF2400F2402D /* Alarm+CoreDataClass.swift */; };
 		42CF0EAD2DDCAF2400F2402D /* StopwatchRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EA42DDCAF2400F2402D /* StopwatchRecord+CoreDataClass.swift */; };
-		42CF0EB02DDCB0DA00F2402D /* TimerEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EAF2DDCB0DA00F2402D /* TimerEntity+CoreDataProperties.swift */; };
-		42CF0EB12DDCB0DA00F2402D /* TimerEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0EAE2DDCB0DA00F2402D /* TimerEntity+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BF205202DDDA61C00B154AB /* Timer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3BF205212DDDA61C00B154AB /* Timer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		42CF0D8E2DDC55FE00F2402D /* alarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF0DA72DDC55FF00F2402D /* alarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CF0DB12DDC55FF00F2402D /* alarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +46,6 @@
 		42CF0EA32DDCAF2400F2402D /* Alarm+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		42CF0EA42DDCAF2400F2402D /* StopwatchRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StopwatchRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
 		42CF0EA52DDCAF2400F2402D /* StopwatchRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StopwatchRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		42CF0EAE2DDCB0DA00F2402D /* TimerEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		42CF0EAF2DDCB0DA00F2402D /* TimerEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -121,8 +121,8 @@
 		42CF0D852DDC55FE00F2402D = {
 			isa = PBXGroup;
 			children = (
-				42CF0EAE2DDCB0DA00F2402D /* TimerEntity+CoreDataClass.swift */,
-				42CF0EAF2DDCB0DA00F2402D /* TimerEntity+CoreDataProperties.swift */,
+				3BF205202DDDA61C00B154AB /* Timer+CoreDataClass.swift */,
+				3BF205212DDDA61C00B154AB /* Timer+CoreDataProperties.swift */,
 				42CF0EA22DDCAF2400F2402D /* Alarm+CoreDataClass.swift */,
 				42CF0EA32DDCAF2400F2402D /* Alarm+CoreDataProperties.swift */,
 				42CF0EA42DDCAF2400F2402D /* StopwatchRecord+CoreDataClass.swift */,
@@ -298,10 +298,10 @@
 			files = (
 				42CF0EA82DDCAF2400F2402D /* StopwatchRecord+CoreDataProperties.swift in Sources */,
 				42CF0EAA2DDCAF2400F2402D /* Alarm+CoreDataProperties.swift in Sources */,
+				3BF205222DDDA61C00B154AB /* Timer+CoreDataClass.swift in Sources */,
+				3BF205232DDDA61C00B154AB /* Timer+CoreDataProperties.swift in Sources */,
 				42CF0EAC2DDCAF2400F2402D /* Alarm+CoreDataClass.swift in Sources */,
 				42CF0EAD2DDCAF2400F2402D /* StopwatchRecord+CoreDataClass.swift in Sources */,
-				42CF0EB02DDCB0DA00F2402D /* TimerEntity+CoreDataProperties.swift in Sources */,
-				42CF0EB12DDCB0DA00F2402D /* TimerEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
