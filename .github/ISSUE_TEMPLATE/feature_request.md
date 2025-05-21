@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for this project
 title: ''
 labels: ''
-assignees: lemonisgreen, h-yoon, Kimewg, Wonsik1, choiyeonggeon
+assignees: choiyeonggeon, h-yoon, Kimewg, lemonisgreen, Wonsik1
 
 ---
 
