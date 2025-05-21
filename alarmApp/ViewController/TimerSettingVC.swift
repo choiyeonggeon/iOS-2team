@@ -68,7 +68,7 @@ class TimerSettingVC: UIViewController {
         let verticalStackView = UIStackView(arrangedSubviews: [label, horizontalStackView])
         verticalStackView.axis = .vertical
         verticalStackView.spacing = 10
-        verticalStackView.backgroundColor = UIColor.sub2.withAlphaComponent(0.1)
+        verticalStackView.backgroundColor = UIColor(red: 217, green: 217, blue: 217, alpha: 0.1)
         
         return verticalStackView
     }()
